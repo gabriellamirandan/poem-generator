@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Document</title>
 </head>
 
@@ -19,15 +20,12 @@
         </header>
 
         <main>
-            <form action="">
-                <input type="text" placeholder="Enter the topic of your poem" autocomplete="off" class="instructions"/>
-                <input type="Submit" class="submit-button"/>
+            <form action="" id="poem-generator-form">
+                <input type="text" placeholder="Enter the topic of your poem" autocomplete="off" class="instructions" />
+                <input type="Submit" class="submit-button" />
             </form>
 
-            <div class="poem">
-                Of everything to my love I will be attentive <br>
-                Before, and with such zeal, and always, and so much <br>
-                That even in the face of the greatest charm
+            <div class="poem" id="poem">
             </div>
 
         </main>
