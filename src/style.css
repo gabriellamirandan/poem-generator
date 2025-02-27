@@ -20,12 +20,24 @@ h1 {
     max-width: 600px;
 }
 
-form {
+.form-container {
     padding: 45px;
     background-color: #f5f2ef;
     border-radius: 10px;
     box-shadow: 0px 4px 30px 0px rgba(40, 32, 25, 0.03);
     color: #5b4b3a;
+}
+
+form {
+    display: flex;
+}
+
+.hint {
+    line-height: 1.5px;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 20px;
+    margin-left: 8px;
 }
 
 .instructions {
@@ -68,10 +80,31 @@ form {
     font-weight: 100;
 }
 
+.hidden {
+    display: none;
+}
+
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+
 footer {
     color: #5b4b3a;
     font-size: 11px;
     text-align: center;
+    margin-top: 30px;
 }
 
 a {
