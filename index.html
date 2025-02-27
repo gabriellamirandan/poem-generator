@@ -5,30 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+        <header>
+            <h1>AI Poem Generator</h1>
+        </header>
 
-    <main>
-        <form action="">
-            <input type="text" placeholder="Enter the topic of your poem" autocomplete="off"/>
-            <input type="Submit"/>
-        </form>
+        <main>
+            <form action="">
+                <input type="text" placeholder="Enter the topic of your poem" autocomplete="off" class="instructions"/>
+                <input type="Submit" class="submit-button"/>
+            </form>
 
-        <div>
-            Of everything to my love I will be attentive <br>
-            Before, and with such zeal, and always, and so much <br>
-            That even in the face of the greatest charm
-        </div>
-    </main>
+            <div class="poem">
+                Of everything to my love I will be attentive <br>
+                Before, and with such zeal, and always, and so much <br>
+                That even in the face of the greatest charm
+            </div>
 
-    <footer>This was coded by <a href="https://github.com/gabriellamirandan">Gabi Miranda</a>, is open-sourced on <a
-            href="https://github.com/gabriellamirandan/poem-generator">Github</a> and is hosted on <a
-            href="https://gabi-poem-generator.netlify.app/">Netlify</a></footer>
+        </main>
+
+        <footer>This was coded by <a href="https://github.com/gabriellamirandan">Gabi Miranda</a>, is open-sourced on <a
+                href="https://github.com/gabriellamirandan/poem-generator">Github</a> and is hosted on <a
+                href="https://gabi-poem-generator.netlify.app/">Netlify</a></footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 

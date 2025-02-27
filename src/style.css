@@ -1,3 +1,78 @@
 body {
+    background-color: #EDE1D4;
+    font-family: "Instrument Sans", serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 36px;
     text-align: center;
+    color: #282019;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+form {
+    padding: 45px;
+    background-color: #A65E3B;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.03);
+    color: #5b4b3a;
+}
+
+.instructions {
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.submit-button {
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: #f1dbc2;
+    padding: 16px 24px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.submit-button:hover {
+    background-color: #EDE1D4;
+    cursor: pointer;
+}
+
+.poem {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 20px;
+    list-style: 24px;
+    border-left: 3px solid #A65E3B;
+    border-top: 0.5px solid #a65f3b52;
+    border-right: 0.5px solid #a65f3b52;
+    border-bottom: 0.5px solid #a65f3b52;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #5b4b3a;
+    font-weight: 100;
+}
+
+footer {
+    color: #5b4b3a;
+    font-size: 13px;
+    text-align: center;
+}
+
+a {
+    color: #282019; 
 }
